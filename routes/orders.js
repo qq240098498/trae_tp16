@@ -327,20 +327,31 @@ router.post('/:id/cancel', authMiddleware, (req, res) => {
   if (!order) {
     return res.status(404).json({ error: '订单不存在' });
   }
-  
+
   if (order.buyerId !== req.user.id) {
     return res.status(403).json({ error: '无权限操作此订单' });
   }
-  
-  if (order.status !== ORDER_STATUS.PENDING_PAYMENT) {
+
+  if (order.status !== ORDER_STATUS.PENDING_PAYMENT && order.status !== ORDER_STATUS.PAID) {
     return res.status(400).json({ error: '当前状态不能取消订单' });
   }
-  
+
+  if (order.status === ORDER_STATUS.PAID) {
+    const buyer = findById('users', order.buyerId);
+    if (buyer) {
+      update('users', order.buyerId, { balance: buyer.balance + order.price });
+    }
+    const product = findById('products', order.productId);
+    if (product) {
+      update('products', order.productId, { status: 'on_sale' });
+    }
+  }
+
   const updatedOrder = update('orders', order.id, {
     status: ORDER_STATUS.CANCELLED,
     cancelledAt: new Date().toISOString()
   });
-  
+
   res.json(updatedOrder);
 });
 

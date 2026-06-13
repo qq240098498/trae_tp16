@@ -269,6 +269,15 @@ export default function OrderDetail() {
           {order.status === 'paid' && isSeller && (
             <Button onClick={() => setShowShip(true)}>去发货</Button>
           )}
+          {order.status === 'paid' && isBuyer && (
+            <Button variant="danger" onClick={() => {
+              if (confirm('确定要申请退款吗？退款后订单将取消，款项将退回您的账户。')) {
+                handleAction(() => api.cancelOrder(order.id), '退款成功');
+              }
+            }}>
+              申请退款
+            </Button>
+          )}
           {order.status === 'shipped' && isBuyer && (
             <Button onClick={() => handleAction(() => api.confirmDelivery(order.id), '已确认收货')}>
               确认收货

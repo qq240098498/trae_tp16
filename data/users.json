@@ -46,5 +46,29 @@
     "id": 4,
     "createdAt": "2026-06-13T07:48:35.596Z",
     "updatedAt": "2026-06-13T07:56:07.569Z"
+  },
+  {
+    "username": "ttt",
+    "password": "$2a$10$ORn7W62AX.IMEsib242AGeTPQwdkZMJL8bZwT9cli3bhLPKcA58S6",
+    "nickname": "1234",
+    "phone": "123",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=ttt",
+    "balance": 9501,
+    "address": "",
+    "id": 5,
+    "createdAt": "2026-06-13T08:04:02.989Z",
+    "updatedAt": "2026-06-13T08:06:04.519Z"
+  },
+  {
+    "username": "testuser2",
+    "password": "$2a$10$/ibKKPqv1vZadta6m7tdOuRN.JAj19CKdMuCiHhyw5t2hbE0UCa.6",
+    "nickname": "testuser2",
+    "phone": "",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=testuser2",
+    "balance": 10000,
+    "address": "",
+    "id": 6,
+    "createdAt": "2026-06-13T08:44:14.922Z",
+    "updatedAt": "2026-06-13T08:44:15.009Z"
   }
 ]

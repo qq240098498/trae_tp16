@@ -57,7 +57,7 @@
     "favorites": 0,
     "id": 3,
     "createdAt": "2026-06-13T05:50:43.823Z",
-    "updatedAt": "2026-06-13T05:50:43.823Z"
+    "updatedAt": "2026-06-13T08:44:15.010Z"
   },
   {
     "title": "小米空气净化器Pro H 除甲醛PM2.5",
@@ -212,12 +212,12 @@
       "https://picsum.photos/seed/product10c/400/400"
     ],
     "sellerId": 1,
-    "status": "on_sale",
-    "views": 0,
-    "favorites": 0,
+    "status": "sold",
+    "views": 8,
+    "favorites": 1,
     "id": 11,
     "createdAt": "2026-06-13T05:50:43.859Z",
-    "updatedAt": "2026-06-13T05:50:43.859Z"
+    "updatedAt": "2026-06-13T08:06:10.311Z"
   },
   {
     "title": "费雪儿童早教音乐玩具 0-3岁",

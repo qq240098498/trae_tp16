@@ -104,7 +104,13 @@ router.post('/order/:orderId', authMiddleware, (req, res) => {
     return res.status(403).json({ error: '无权限申请退货' });
   }
   
-  if (order.status !== 'inspection_passed' && order.status !== 'delivered' && order.status !== 'completed') {
+  if (
+    order.status !== 'pending_payment' &&
+    order.status !== 'paid' &&
+    order.status !== 'inspection_passed' &&
+    order.status !== 'delivered' &&
+    order.status !== 'completed'
+  ) {
     return res.status(400).json({ error: '当前订单状态不支持退货' });
   }
   
@@ -128,27 +134,56 @@ router.post('/order/:orderId', authMiddleware, (req, res) => {
 
 router.post('/:id/approve', authMiddleware, (req, res) => {
   const { remark } = req.body;
-  
+
   const returnRecord = findById('returns', Number(req.params.id));
   if (!returnRecord) {
     return res.status(404).json({ error: '退货申请不存在' });
   }
-  
+
   const order = findById('orders', returnRecord.orderId);
   if (!order || order.sellerId !== req.user.id) {
     return res.status(403).json({ error: '无权限操作' });
   }
-  
+
   if (returnRecord.status !== RETURN_STATUS.PENDING) {
     return res.status(400).json({ error: '当前状态不支持审批' });
   }
-  
+
+  const now = new Date().toISOString();
+
+  if (order.status === 'pending_payment') {
+    update('returns', returnRecord.id, {
+      status: RETURN_STATUS.CLOSED,
+      sellerRemark: remark || '',
+      approvedAt: now,
+    });
+    update('orders', order.id, { status: 'returned', returnedAt: now });
+    update('products', order.productId, { status: 'on_sale' });
+    return res.json({ message: '已批准退款，订单关闭' });
+  }
+
+  if (order.status === 'paid') {
+    const buyer = findById('users', order.buyerId);
+    if (buyer) {
+      update('users', order.buyerId, { balance: buyer.balance + order.price });
+    }
+    update('returns', returnRecord.id, {
+      status: RETURN_STATUS.REFUNDED,
+      sellerRemark: remark || '',
+      approvedAt: now,
+      refundedAt: now,
+    });
+    update('orders', order.id, { status: 'returned', returnedAt: now });
+    update('products', order.productId, { status: 'on_sale' });
+    return res.json({ message: '已批准退款，余额已退回买家' });
+  }
+
   const updated = update('returns', returnRecord.id, {
     status: RETURN_STATUS.APPROVED,
     sellerRemark: remark || '',
-    approvedAt: new Date().toISOString()
+    approvedAt: now,
   });
-  
+
   res.json(updated);
 });
 

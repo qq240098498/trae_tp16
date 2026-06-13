@@ -36,5 +36,38 @@
     "createdAt": "2026-06-13T07:55:57.967Z",
     "updatedAt": "2026-06-13T07:56:07.571Z",
     "paidAt": "2026-06-13T07:56:07.571Z"
+  },
+  {
+    "orderNo": "202606131606013620",
+    "productId": 11,
+    "sellerId": 1,
+    "buyerId": 5,
+    "price": 499,
+    "status": "paid",
+    "address": "123",
+    "phone": "123",
+    "buyerRemark": "123",
+    "paymentMethod": "balance",
+    "id": 3,
+    "createdAt": "2026-06-13T08:06:01.069Z",
+    "updatedAt": "2026-06-13T08:06:04.520Z",
+    "paidAt": "2026-06-13T08:06:04.520Z"
+  },
+  {
+    "orderNo": "202606131644148003",
+    "productId": 3,
+    "sellerId": 1,
+    "buyerId": 6,
+    "price": 1299,
+    "status": "cancelled",
+    "address": "????",
+    "phone": "13800000000",
+    "buyerRemark": "",
+    "paymentMethod": "balance",
+    "id": 4,
+    "createdAt": "2026-06-13T08:44:14.999Z",
+    "updatedAt": "2026-06-13T08:44:15.011Z",
+    "paidAt": "2026-06-13T08:44:15.006Z",
+    "cancelledAt": "2026-06-13T08:44:15.011Z"
   }
 ]
