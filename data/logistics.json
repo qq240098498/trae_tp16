@@ -1,0 +1,20 @@
+[
+  {
+    "orderId": 1,
+    "trackingNo": "SF1234567890",
+    "courier": "顺丰速运",
+    "status": "delivered",
+    "currentLocation": "已签收",
+    "trackingHistory": [
+      {
+        "time": "2026-06-13T06:06:33.181Z",
+        "location": "商家已发货，快递已揽收",
+        "description": "包裹已从卖家发货"
+      }
+    ],
+    "id": 1,
+    "createdAt": "2026-06-13T06:06:33.181Z",
+    "updatedAt": "2026-06-13T06:11:16.674Z",
+    "deliveredAt": "2026-06-13T06:11:16.674Z"
+  }
+]

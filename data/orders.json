@@ -1,0 +1,40 @@
+[
+  {
+    "orderNo": "202606131358532009",
+    "productId": 1,
+    "sellerId": 1,
+    "buyerId": 3,
+    "price": 5299,
+    "status": "return_requested",
+    "address": "北京市朝阳区建国路88号SOHO现代城A座1201",
+    "phone": "13800138003",
+    "buyerRemark": "",
+    "paymentMethod": "balance",
+    "id": 1,
+    "createdAt": "2026-06-13T05:58:53.013Z",
+    "updatedAt": "2026-06-13T06:14:03.508Z",
+    "paidAt": "2026-06-13T06:00:31.733Z",
+    "shippedAt": "2026-06-13T06:06:33.183Z",
+    "deliveredAt": "2026-06-13T06:11:16.675Z",
+    "inspectionResult": "passed",
+    "inspectionRemark": "商品完好",
+    "inspectedAt": "2026-06-13T06:11:16.690Z",
+    "completedAt": "2026-06-13T06:11:16.698Z"
+  },
+  {
+    "orderNo": "202606131555577672",
+    "productId": 12,
+    "sellerId": 1,
+    "buyerId": 4,
+    "price": 89,
+    "status": "paid",
+    "address": "北京市朝阳区建国路88号SOHO现代城A座1201",
+    "phone": "13800138000",
+    "buyerRemark": "",
+    "paymentMethod": "balance",
+    "id": 2,
+    "createdAt": "2026-06-13T07:55:57.967Z",
+    "updatedAt": "2026-06-13T07:56:07.571Z",
+    "paidAt": "2026-06-13T07:56:07.571Z"
+  }
+]

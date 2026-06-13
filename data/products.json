@@ -1,0 +1,242 @@
+[
+  {
+    "title": "iPhone 13 Pro 256G 远峰蓝色 九成新",
+    "description": "自用iPhone 13 Pro，256GB，远峰蓝色。使用约一年半，外观完好无磕碰，屏幕无划痕，电池健康度89%。配件齐全，原装充电器、数据线、耳机都在。因换新机出售，非诚勿扰。",
+    "price": 5299,
+    "originalPrice": 8999,
+    "category": "数码产品",
+    "condition": "九成新",
+    "images": [
+      "https://picsum.photos/seed/product0a/400/400",
+      "https://picsum.photos/seed/product0b/400/400",
+      "https://picsum.photos/seed/product0c/400/400"
+    ],
+    "sellerId": 1,
+    "status": "sold",
+    "views": 0,
+    "favorites": 0,
+    "id": 1,
+    "createdAt": "2026-06-13T05:50:43.813Z",
+    "updatedAt": "2026-06-13T06:00:31.732Z"
+  },
+  {
+    "title": "MacBook Air M1 8+256 银色 近全新",
+    "description": "2022年购入的MacBook Air M1芯片版本，8G内存+256G存储，银色。几乎没怎么用过，外观完美，电池循环次数仅32次。包装盒和原装充电器都在，适合学生党和办公族。",
+    "price": 5899,
+    "originalPrice": 7999,
+    "category": "数码产品",
+    "condition": "全新",
+    "images": [
+      "https://picsum.photos/seed/product1a/400/400",
+      "https://picsum.photos/seed/product1b/400/400",
+      "https://picsum.photos/seed/product1c/400/400"
+    ],
+    "sellerId": 1,
+    "status": "on_sale",
+    "views": 0,
+    "favorites": 0,
+    "id": 2,
+    "createdAt": "2026-06-13T05:50:43.818Z",
+    "updatedAt": "2026-06-13T05:50:43.818Z"
+  },
+  {
+    "title": "索尼WH-1000XM4 无线降噪耳机",
+    "description": "索尼顶级降噪耳机，降噪效果一流，音质出色。使用约一年，耳罩有轻微使用痕迹，功能一切正常。适合通勤、办公、出差使用。",
+    "price": 1299,
+    "originalPrice": 2899,
+    "category": "数码产品",
+    "condition": "八成新",
+    "images": [
+      "https://picsum.photos/seed/product2a/400/400",
+      "https://picsum.photos/seed/product2b/400/400",
+      "https://picsum.photos/seed/product2c/400/400"
+    ],
+    "sellerId": 1,
+    "status": "on_sale",
+    "views": 0,
+    "favorites": 0,
+    "id": 3,
+    "createdAt": "2026-06-13T05:50:43.823Z",
+    "updatedAt": "2026-06-13T05:50:43.823Z"
+  },
+  {
+    "title": "小米空气净化器Pro H 除甲醛PM2.5",
+    "description": "小米空气净化器Pro H，CADR值760m³/h，除甲醛除PM2.5效果很好。去年冬天买的，滤芯还有约70%寿命。搬家了带不走，低价出。",
+    "price": 1099,
+    "originalPrice": 1699,
+    "category": "家居生活",
+    "condition": "九成新",
+    "images": [
+      "https://picsum.photos/seed/product3a/400/400",
+      "https://picsum.photos/seed/product3b/400/400",
+      "https://picsum.photos/seed/product3c/400/400"
+    ],
+    "sellerId": 1,
+    "status": "on_sale",
+    "views": 0,
+    "favorites": 0,
+    "id": 4,
+    "createdAt": "2026-06-13T05:50:43.829Z",
+    "updatedAt": "2026-06-13T05:50:43.829Z"
+  },
+  {
+    "title": "宜家BILLY毕利书架 白色 八成新",
+    "description": "宜家经典款毕利书架，白色，80x28x202cm。使用两年，功能完好，有轻微使用痕迹。需要自行拆卸搬运，限同城自提。",
+    "price": 299,
+    "originalPrice": 599,
+    "category": "家居生活",
+    "condition": "八成新",
+    "images": [
+      "https://picsum.photos/seed/product4a/400/400",
+      "https://picsum.photos/seed/product4b/400/400",
+      "https://picsum.photos/seed/product4c/400/400"
+    ],
+    "sellerId": 1,
+    "status": "on_sale",
+    "views": 0,
+    "favorites": 0,
+    "id": 5,
+    "createdAt": "2026-06-13T05:50:43.833Z",
+    "updatedAt": "2026-06-13T05:50:43.833Z"
+  },
+  {
+    "title": "优衣库男士羽绒服 L码 藏蓝色",
+    "description": "优衣库无缝羽绒服，男士L码，藏蓝色。去年冬天买的，只穿了几次，几乎全新。保暖效果很好，现在胖了穿不下了。",
+    "price": 299,
+    "originalPrice": 799,
+    "category": "服装鞋帽",
+    "condition": "九成新",
+    "images": [
+      "https://picsum.photos/seed/product5a/400/400",
+      "https://picsum.photos/seed/product5b/400/400",
+      "https://picsum.photos/seed/product5c/400/400"
+    ],
+    "sellerId": 1,
+    "status": "on_sale",
+    "views": 0,
+    "favorites": 0,
+    "id": 6,
+    "createdAt": "2026-06-13T05:50:43.838Z",
+    "updatedAt": "2026-06-13T05:50:43.838Z"
+  },
+  {
+    "title": "Nike Air Jordan 1 Mid 篮球鞋 42码",
+    "description": "AJ1中帮，黑红配色，42码。穿过一段时间，鞋底有磨损，鞋面还不错。正品支持鉴定，盒子在。",
+    "price": 699,
+    "originalPrice": 999,
+    "category": "服装鞋帽",
+    "condition": "七成新",
+    "images": [
+      "https://picsum.photos/seed/product6a/400/400",
+      "https://picsum.photos/seed/product6b/400/400",
+      "https://picsum.photos/seed/product6c/400/400"
+    ],
+    "sellerId": 1,
+    "status": "on_sale",
+    "views": 0,
+    "favorites": 0,
+    "id": 7,
+    "createdAt": "2026-06-13T05:50:43.843Z",
+    "updatedAt": "2026-06-13T05:50:43.843Z"
+  },
+  {
+    "title": "《三体》全集套装 刘慈欣著 科幻小说",
+    "description": "《三体》三部曲全集，刘慈欣经典科幻巨著。书是正版，看过一遍，保存完好，无笔记无划线。科幻迷必入！",
+    "price": 69,
+    "originalPrice": 168,
+    "category": "图书文具",
+    "condition": "九成新",
+    "images": [
+      "https://picsum.photos/seed/product7a/400/400",
+      "https://picsum.photos/seed/product7b/400/400",
+      "https://picsum.photos/seed/product7c/400/400"
+    ],
+    "sellerId": 1,
+    "status": "on_sale",
+    "views": 0,
+    "favorites": 0,
+    "id": 8,
+    "createdAt": "2026-06-13T05:50:43.847Z",
+    "updatedAt": "2026-06-13T05:50:43.847Z"
+  },
+  {
+    "title": "Kindle Paperwhite 电子书阅读器 10代",
+    "description": "Kindle Paperwhite第10代，8G版，防水设计。用了不到一年，屏幕完好，边框轻微痕迹。爱看书的朋友不要错过，送原装皮套。",
+    "price": 499,
+    "originalPrice": 998,
+    "category": "数码产品",
+    "condition": "九成新",
+    "images": [
+      "https://picsum.photos/seed/product8a/400/400",
+      "https://picsum.photos/seed/product8b/400/400",
+      "https://picsum.photos/seed/product8c/400/400"
+    ],
+    "sellerId": 1,
+    "status": "on_sale",
+    "views": 0,
+    "favorites": 0,
+    "id": 9,
+    "createdAt": "2026-06-13T05:50:43.850Z",
+    "updatedAt": "2026-06-13T05:50:43.850Z"
+  },
+  {
+    "title": "迪卡侬山地自行车 27.5寸 21速",
+    "description": "迪卡侬入门款山地车，27.5寸轮径，21速变速。骑了大半年，变速刹车都正常。上下班通勤或者周末骑行都不错，限同城自提。",
+    "price": 599,
+    "originalPrice": 1299,
+    "category": "运动户外",
+    "condition": "七成新",
+    "images": [
+      "https://picsum.photos/seed/product9a/400/400",
+      "https://picsum.photos/seed/product9b/400/400",
+      "https://picsum.photos/seed/product9c/400/400"
+    ],
+    "sellerId": 1,
+    "status": "on_sale",
+    "views": 0,
+    "favorites": 0,
+    "id": 10,
+    "createdAt": "2026-06-13T05:50:43.855Z",
+    "updatedAt": "2026-06-13T05:50:43.855Z"
+  },
+  {
+    "title": "雅诗兰黛小棕瓶精华 50ml 全新未拆封",
+    "description": "雅诗兰黛小棕瓶精华50ml，全新未拆封，保质期到2026年。朋友送的用不完，专柜正品，支持验货。护肤品界的常青树，抗老修护效果一流。",
+    "price": 499,
+    "originalPrice": 890,
+    "category": "美妆护肤",
+    "condition": "全新",
+    "images": [
+      "https://picsum.photos/seed/product10a/400/400",
+      "https://picsum.photos/seed/product10b/400/400",
+      "https://picsum.photos/seed/product10c/400/400"
+    ],
+    "sellerId": 1,
+    "status": "on_sale",
+    "views": 0,
+    "favorites": 0,
+    "id": 11,
+    "createdAt": "2026-06-13T05:50:43.859Z",
+    "updatedAt": "2026-06-13T05:50:43.859Z"
+  },
+  {
+    "title": "费雪儿童早教音乐玩具 0-3岁",
+    "description": "费雪经典款早教音乐玩具，适合0-3岁宝宝。音乐、灯光、多种玩法，宝宝很喜欢。现在长大了用不上了，干净无破损。",
+    "price": 89,
+    "originalPrice": 259,
+    "category": "母婴用品",
+    "condition": "九成新",
+    "images": [
+      "https://picsum.photos/seed/product11a/400/400",
+      "https://picsum.photos/seed/product11b/400/400",
+      "https://picsum.photos/seed/product11c/400/400"
+    ],
+    "sellerId": 1,
+    "status": "sold",
+    "views": 2,
+    "favorites": 1,
+    "id": 12,
+    "createdAt": "2026-06-13T05:50:43.862Z",
+    "updatedAt": "2026-06-13T07:56:07.570Z"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "username": "seller1",
+    "password": "$2a$10$dab/2oB4JYp/j/Je.dPUNu0MQ8E9giIoRFUz4UrLDFDcU4TlrGRYm",
+    "nickname": "二手卖家小王",
+    "phone": "13800138001",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=seller1",
+    "balance": 15299,
+    "address": "",
+    "id": 1,
+    "createdAt": "2026-06-13T05:50:43.596Z",
+    "updatedAt": "2026-06-13T06:11:16.690Z"
+  },
+  {
+    "username": "seller2",
+    "password": "$2a$10$RBD1eTiu713OGcZSVTppPOKATo7C4rXfZbSQahSMKQaMqDgYLn5Qi",
+    "nickname": "闲置达人小李",
+    "phone": "13800138002",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=seller2",
+    "balance": 10000,
+    "address": "",
+    "id": 2,
+    "createdAt": "2026-06-13T05:50:43.673Z",
+    "updatedAt": "2026-06-13T05:50:43.673Z"
+  },
+  {
+    "username": "buyer1",
+    "password": "$2a$10$qwRRFpGmkG9Bif9E4sbVo.jvjAUJaDeEiKKQD86JddKKnontryMiS",
+    "nickname": "淘宝达人小张",
+    "phone": "13800138003",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=buyer1",
+    "balance": 4701,
+    "address": "",
+    "id": 3,
+    "createdAt": "2026-06-13T05:50:43.741Z",
+    "updatedAt": "2026-06-13T06:00:31.731Z"
+  },
+  {
+    "username": "testuser",
+    "password": "$2a$10$GZR5CZGwGz.Oc8lRaYPhau84flKAZsXVJMCZoUKq24sV9RM/mDw1K",
+    "nickname": "testuser",
+    "phone": "",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=testuser",
+    "balance": 9911,
+    "address": "",
+    "id": 4,
+    "createdAt": "2026-06-13T07:48:35.596Z",
+    "updatedAt": "2026-06-13T07:56:07.569Z"
+  }
+]
